@@ -1,7 +1,7 @@
 steps:
   - label: ":gradle: :package:"
-  command: echo "Hello"
- #   command: "./gradlew --build-cache clean assemble"
+#    command: "./gradlew --build-cache clean assemble"
+    command: echo "Hello"
 #    artifact_paths: "project/build/libs/*.jar"
 #    plugins:
 #      - docker-compose#v3.5.0:
