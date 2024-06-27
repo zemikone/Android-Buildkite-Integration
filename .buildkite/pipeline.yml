@@ -1,3 +1,6 @@
+env:
+  ANDROID_HOME: /Users/zemikone/Library/Android/sdk
+
 steps:
   - label: ":gradle: :package:"
 #    command: "./gradlew --build-cache clean assemble"
