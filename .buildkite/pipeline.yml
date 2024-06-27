@@ -6,6 +6,8 @@ steps:
     command:
       - ./gradlew assembleDebug
 
+  - wait: ~
+
   - label: ":android: Run Unit Tests"
     command:
       - ./gradlew testDebugUnitTest
