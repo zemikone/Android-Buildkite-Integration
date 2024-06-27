@@ -2,7 +2,9 @@ steps:
   - label: ":gradle: :package:"
 #    command: "./gradlew --build-cache clean assemble"
     commands:
-      - buildkite/setup.sh
+      - >-
+        ./gradlew
+        assembleDebug
 
 #    artifact_paths: "project/build/libs/*.jar"
 #    plugins:
