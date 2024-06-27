@@ -1,7 +1,7 @@
 steps:
   - label: ":gradle: :package:"
 #    command: "./gradlew --build-cache clean assemble"
-    commands: echo "Hello"
+    commands:
       - buildkite/setup.sh
 
 #    artifact_paths: "project/build/libs/*.jar"
