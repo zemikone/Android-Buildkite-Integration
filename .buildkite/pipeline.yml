@@ -2,12 +2,9 @@ env:
   ANDROID_HOME: /Users/zemikone/Library/Android/sdk
 
 steps:
-  - label: ":gradle: :package:"
-#    command: "./gradlew --build-cache clean assemble"
-    commands:
-      - >-
-        ./gradlew
-        assembleDebug
+  - label: ":android: Build Android App"
+    command:
+      - ./gradlew assembleDebug
 
 #    artifact_paths: "project/build/libs/*.jar"
 #    plugins:
