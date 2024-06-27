@@ -1,7 +1,9 @@
 steps:
   - label: ":gradle: :package:"
 #    command: "./gradlew --build-cache clean assemble"
-    command: echo "Hello"
+    commands: echo "Hello"
+      - buildkite/setup.sh
+
 #    artifact_paths: "project/build/libs/*.jar"
 #    plugins:
 #      - docker-compose#v3.5.0:
